@@ -12,8 +12,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Map;
 
-import static java.awt.SystemColor.info;
-
 @Slf4j
 @Controller
 public class RequestParamController {
