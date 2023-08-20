@@ -50,7 +50,7 @@ public class RequestParamController {
         return "ok";
     }
 
-    //default: true
+    //required : default = true
     @ResponseBody
     @RequestMapping("/request-param-required")
     public String requestParamRequired(@RequestParam(required = true) String username, @RequestParam(required = false) Integer age) { //null일 수 있으므로..!
